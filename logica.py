@@ -8,7 +8,8 @@ def controlarProd():
     pass
 def comprarProd():
     pass
-def controlarStockProd():
+def controlarStockProd(idstock):
+    beconnect.Mostrar("SELECT cantidadstock FROM stock WHERE idstock = "+ idstock)
     pass
 def venderCliente():
     pass
